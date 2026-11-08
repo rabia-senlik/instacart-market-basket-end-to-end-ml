@@ -1,0 +1,28 @@
+# Data files (Too large for GitHub, >100MB)
+data/
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
