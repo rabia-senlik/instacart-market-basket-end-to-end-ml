@@ -66,7 +66,7 @@ Milyonlarca satırlık ilişkisel tablolar optimize edilerek tek bir eğitim mat
   * `up_orders_since_last`: Kullanıcı bu ürünü en son kaç sipariş önce aldı?
 
 #### 🔒 Data Leakage (Veri Sızıntısı) Nasıl Kesin Olarak Önlendi?
-> **En Büyük Mülakat Sorusu:** *"Geleceğe ait hedef sepeti geçmiş istatistiklerine karıştırdınız mı?"*
+> **Kritik Doğrulama Kriteri:** Zaman serisi ve e-ticaret sepet verilerinde hedef değişkenin geçmiş istatistiklerine sızmasını (Data Leakage) engellemek.
 
 **Çözümümüz:** Tüm kullanıcı ve ürün özellikleri **SADECE VE SADECE `eval_set == 'prior'` siparişleri üzerinden hesaplandı!** Tahmin edilecek olan son sepet (`eval_set == 'train'`) hiçbir özellik çıkarımına dahil edilmedi. Böylece geleceğin bilgisi geçmişe asla sızdırılmadı (Sıfır Data Leakage).
 
