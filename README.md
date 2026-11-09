@@ -159,8 +159,10 @@ Müşterinin telefon ekranında gösterilen ilk 5 üründe (**Top-5**), müşter
 ├── 04_optuna_tuning.py                   # Adım 4: Optuna ile Bayesyen Hiperparametre Optimizasyonu
 ├── 05_degerlendirme_ve_metrikler.py      # Adım 5: Eşik Kalibrasyonu, Top-K Vitrini ve Metrik Tablosu
 ├── 06_hata_analizi_ve_mlops.py           # Adım 6: Hata Analizi (TP vs FN), Feature Importance & MLOps
+├── 07_psi_data_drift_ve_retrain.py       # Adım 7: PSI ile Data Drift Tespiti ve Otomatik Retraining
 ├── 05_model_degerlendirme_paneli.png     # Adım 5: 4 Panelli Metrik Dashboard Görseli
 ├── 06_hata_analizi_ve_izleme_paneli.png  # Adım 6: 4 Panelli Hata Analizi ve MLOps Görseli
+├── 07_psi_data_drift_dashboard.png       # Adım 7: PSI Dağılım Kayması ve Drift İzleme Görseli
 ├── Uctan_Uca_Veri_Bilimi_Yol_Haritasi.pdf# Baştan Sona Kıdemli Veri Bilimi Rehberi (PDF)
 ├── .gitignore                            # Büyük veri ve geçici dosyaları hariç tutma kuralları
 └── README.md                             # Kapsamlı Proje Dokümantasyonu
